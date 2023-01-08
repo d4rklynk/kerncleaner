@@ -1,4 +1,11 @@
 ### Variables
+
+green="\033[1;32m"
+red="\033[1;31m"
+black="\033[0m"
+
+### Main
+
 vmlinuz_file=$(ls -t vmlinuz-0-rescue* | head -1)
 initramfs_file=$(ls -t initramfs-0-rescue* | head -1)
 cd /boot
